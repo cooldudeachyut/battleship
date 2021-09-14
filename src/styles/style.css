@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Qahiri";
+	src: url(../assets/Qahiri-Regular.ttf) format("truetype");
+}
+
+#main	{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+}
+
+#upper-bar {
+	background-color: rgb(0,0,0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	width: 100%;
+	color: rgb(255,255,255);
+}
+
+#lower-bar {
+	background-color: rgb(0,0,0);
+	height: 60px;
+	width: 100%;
+}

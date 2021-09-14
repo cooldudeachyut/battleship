@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new htmlWebpackPlugin({
-      title: 'Battleship',
+      title: 'Battleship Game',
       template:'./src/index.html',
       hash:true,
       inject: 'body',
